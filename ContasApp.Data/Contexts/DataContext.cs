@@ -16,7 +16,7 @@ namespace ContasApp.Data.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //definindo o tipo de banco de dados do projeto
-            optionsBuilder.UseSqlServer("Data Source=SQL8005.site4now.net;Initial Catalog=db_a99ef9_bdcontasapp;User Id=db_a99ef9_bdcontasapp_admin;Password=coti1234");
+            optionsBuilder.UseSqlServer("Data Source=SQL5112.site4now.net;Initial Catalog=db_aa4c6a_bdcontasapp;User Id=db_aa4c6a_bdcontasapp_admin;Password=Fe100293@");
         }
 
         //Regra 3: Sobrescrever o método OnModelCreating
